@@ -2,7 +2,7 @@
 <html>
 
 <head>
-  <title>猪腰独家解密</title>
+  <title>LeiDa</title>
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="stylesheet" href="https://unpkg.com/openlayers@4.6.4/dist/ol.css">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.6.2/css/bulma.min.css" />
@@ -34,17 +34,17 @@
   <div id="app">
     <div class="sidenav" id="navBox" style="display:none;">
       <section class="section">
-        <h1 class="title STYLE4">大吉大利，今晚吃鸡</h1>
+        <h1 class="title STYLE4">绝地求生 雷达</h1>
         <h1 class="title STYLE1">版本:5.01</h1>
-        <h1 class="title STYLE1">Q：52268135</h1>	
+        <h1 class="title STYLE1"></h1>	
 		<label class="label">更新内容:</label> 
 		<span class="STYLE5">载具追随已修复</span>
      
 
         
         <label class="label">地图选择:</label>
-          <input type="radio" id="erangel" value="erangel" v-model="mapType"><label for="erangel">老图</label>
-          <input type="radio" id="miramar" value="miramar" v-model="mapType"><label for="miramar">新图</label>
+          <input type="radio" id="erangel" value="erangel" v-model="mapType"><label for="erangel">海岛图</label>
+          <input type="radio" id="miramar" value="miramar" v-model="mapType"><label for="miramar">沙漠图</label>
           <br><br>
 
         <label class="label">地图设置:</label>
@@ -104,10 +104,10 @@
 
         <hr>
         <label class="label">刷新速度:</label>
-          <a class="button is-small" @click="setFPS(5)">极慢</a>
-          <a class="button is-small" @click="setFPS(15)">慢</a>
-          <a class="button is-small" @click="setFPS(30)">快</a>
-          <a class="button is-small" @click="setFPS(60)">极快</a>
+          <a class="button is-small" @click="setFPS(5)">Fps 5</a>
+          <a class="button is-small" @click="setFPS(15)">FPS 15</a>
+          <a class="button is-small" @click="setFPS(30)">Fps 30</a>
+          <a class="button is-small" @click="setFPS(60)">Fps 60</a>
           <br><br>
 
         <!-- <a class="button is-small" @click="toggleRefresh">{{ toggleButtonText }}</a>
